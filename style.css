@@ -1,15 +1,17 @@
-*{
-    margin: 2px;
-    padding: 2px;
-    
+/* Custom sidebar color */
+.sidebar {
+  background-color: #222;
+  padding: 20px;
 }
 
-body
-{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e44fa1;
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
-.home{
-    color: rgb(94, 41, 192);
+/* Navbar custom font */
+.navbar-brand {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
 }
